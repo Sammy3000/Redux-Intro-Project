@@ -1,10 +1,13 @@
 import "./App.css";
-
+import Navbar from "./components/Navbar";
+import CartContainer from "./components/CartContainer";
 function App() {
   return (
-    <div>
-      <h>Hello</h>
-    </div>
+    <main>
+      {" "}
+      <Navbar />
+      <CartContainer />
+    </main>
   );
 }
 
